@@ -89,9 +89,5 @@ public class FilterTest extends BaseClass {
         homePage.searchBar("phones");
         filter.applyRatingFilter();
         Assert.assertTrue(search.productDisplayed("phones"));
-
-
     }
-
-
 }

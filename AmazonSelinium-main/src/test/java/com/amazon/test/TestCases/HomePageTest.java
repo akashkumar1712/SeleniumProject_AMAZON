@@ -84,7 +84,4 @@ public class HomePageTest extends BaseClass{
         String curUrl = homePage.getCurrUrl();
         Assert.assertTrue(curUrl.contains("lang"));
     }
-
-
-
 }

@@ -34,6 +34,11 @@ public class HomePage extends BaseClass {
     @FindBy(xpath = "//*[@id=\"icp-nav-flyout\"]/a/span")
     WebElement lang;
 
+
+
+
+
+
     public HomePage(){
         PageFactory.initElements(webDriver,this);
         log.debug("intializing the home elements");
